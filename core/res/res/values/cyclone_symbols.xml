@@ -8,4 +8,8 @@
     <java-symbol name="reboot_system_title" type="string" />
     <java-symbol name="reboot_system_message" type="string" />
     <java-symbol type="array" name="config_rebootActionsList" />
+
+   <!-- Device keyhandlers -->
+    <java-symbol type="array" name="config_deviceKeyHandlerLibs" />
+    <java-symbol type="array" name="config_deviceKeyHandlerClasses" />
 </resources>
