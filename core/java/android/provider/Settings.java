@@ -5898,6 +5898,9 @@ public final class Settings {
          * the setting value. See an example above.
          */
 
+        /** @hide */
+        public static final String BACK_GESTURE_HEIGHT = "back_gesture_height";
+
         /**
          * Adaptive playback
          * Automatically pause media when the volume is muted and
