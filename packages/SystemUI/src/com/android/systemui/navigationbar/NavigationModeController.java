@@ -208,8 +208,8 @@ public class NavigationModeController implements Dumpable {
     }
 
     public int getNavigationHandleWidthMode() {
-    return mSecureSettings.getIntForUser(Settings.Secure.GESTURE_NAVBAR_LENGTH_MODE,
-       0, UserHandle.USER_CURRENT);
+        return mSecureSettings.getIntForUser(Settings.Secure.GESTURE_NAVBAR_LENGTH_MODE,
+            1, UserHandle.USER_CURRENT);
     }
 
     @Override
