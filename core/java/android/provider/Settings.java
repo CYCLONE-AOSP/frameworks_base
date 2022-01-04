@@ -5949,6 +5949,12 @@ public final class Settings {
         public static final String GESTURE_NAVBAR_RADIUS = "gesture_navbar_radius";
 
         /**
+         * Defines the screen-off animation to display
+         * @hide
+         */
+        public static final String SCREEN_OFF_ANIMATION = "screen_off_animation";
+
+        /**
          * Keys we no longer back up under the current schema, but want to continue to
          * process when restoring historical backup datasets.
          *
