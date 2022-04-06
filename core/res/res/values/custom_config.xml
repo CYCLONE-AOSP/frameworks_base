@@ -186,4 +186,24 @@
         <item>restart_bootloader</item>
      </string-array>
 
+    <!-- Display mode remapping table.
+         If the mode names returned by the backend do not match
+         the predefined and translated strings in the Settings
+         app, they can be remapped here. The format is
+         "oldname:newname", one per entry. -->
+    <string-array name="config_displayModeMappings" translatable="false">
+    </string-array>
+
+    <!-- Should we filter any display modes which are unmapped? -->
+    <bool name="config_filterDisplayModes">false</bool>
+
+    <!-- Whether device has a physical display cutout -->
+    <bool name="config_physicalDisplayCutout">false</bool>
+
+    <!-- Whether device has a centered display cutout -->
+    <bool name="config_physicalDisplayCutoutCentered">@bool/config_physicalDisplayCutout</bool>
+
+    <!-- Whether to allow network traffic on statusbar -->
+    <bool name="config_supportsNetworkTrafficOnStatusBar">true</bool>
+
 </resources>

@@ -82,4 +82,13 @@
     <!-- Power menu -->
     <java-symbol type="array" name="config_restartActionsList" />
 
+    <!-- Whether device has a physical display cutout -->
+    <java-symbol type="bool" name="config_physicalDisplayCutout" />
+
+    <!-- Whether device has a big physical display cutout -->
+    <java-symbol type="bool" name="config_physicalDisplayCutoutCentered" />
+
+    <!-- Whether to allow network traffic on statusbar -->
+    <java-symbol type="bool" name="config_supportsNetworkTrafficOnStatusBar" />
+
 </resources>
