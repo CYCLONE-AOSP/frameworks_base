@@ -5860,13 +5860,12 @@ public final class Settings {
         public static final String AUTO_BRIGHTNESS_ONE_SHOT = "auto_brightness_one_shot";
 
         /**
-         * Network traffic indicator location
+         * Network traffic indication
          * 0 = Disabled
-         * 1 = Statusbar
-         * 2 = Quick statusbar
+         * 1 = Enabled
          * @hide
          */
-        public static final String NETWORK_TRAFFIC_LOCATION = "network_traffic_location";
+        public static final String NETWORK_TRAFFIC_ENABLED = "network_traffic_enabled";
 
         /**
          * Whether or not to hide the network traffic indicator when there is no activity
