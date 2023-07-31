@@ -7441,5 +7441,8 @@ message MetricsEvent {
     // CustomSettings constant
     CUSTOM_SETTINGS = 1999;
 
+
+    // CYCLONE Constant
+    CYCLONE = 5884;
   }
 }
